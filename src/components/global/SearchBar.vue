@@ -70,7 +70,7 @@
   // As it makes more sense to have this logic in the component
   // since it's directly related to the UI/UX of the search bar
   const onInput = () => {
-    if (!props.requireEnter) onSearch()
+    if (!props.requireEnter && query.value.length > 3) onSearch()
   }
 
   const onEnterPress = () => {

@@ -16,6 +16,7 @@ export function useEvents(omdbInstance: OmdbInstance) {
 
   // Clear the search query (used when clicking the 'x' button)
   const clearQuery = () => {
+    hasDoneFirstSearch.value = false
     query.value = ''
   }
 
