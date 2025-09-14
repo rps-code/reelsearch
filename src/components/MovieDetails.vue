@@ -201,6 +201,7 @@
 </script>
 
 <style scoped>
+  /* Styles for the info cards, when attempting @apply here it doesnt seem to work so manually done it as a temp workaround */
   .info-card {
     background-color: rgba(31, 41, 55, 0.4);
     backdrop-filter: blur(4px);
@@ -212,7 +213,7 @@
   .info-title {
     font-size: 1.25rem;
     font-weight: 600;
-    color: #ffffff; /* text-white */
-    margin-bottom: 1rem; /* mb-4 */
+    color: #ffffff;
+    margin-bottom: 1rem;
   }
 </style>
